@@ -6,12 +6,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import tw.core.generator.AnswerGenerator;
 import tw.core.model.GuessResult;
+import tw.core.exception.OutOfGuessCountException;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
+import static org.junit.jupiter.api.Assertions.fail;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -51,6 +53,32 @@ public class GameTest {
         assertThat(guess.getResult(), is("3A0B"));
 
     }
+
+    @Test
+    public void should_get_information_when_call_guess () throws Exception{
+        //given
+        List<GuessResult> guessResults = new ArrayList<>();
+        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        try {
+            guess = game.guess(Answer.createAnswer("1 2 3 3"));
+            fail("should failed");
+        }catch (OutOfGuessCountException e){
+
+        }
+
+    }
+
 
     @Test
     public void should_get_the_success_guess_history_when_call_guessHistory() throws Exception{
@@ -127,5 +155,21 @@ public class GameTest {
 
         assertThat(game.checkStatus(),is("continue"));
     }
+//    @Test
+//    public void should_get_false_given_guess_is_wrong_when_call_checkCorrectGuessResult()throws Exception{
+//        List<GuessResult> guessResults = new ArrayList<>();
+//        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 2"));
+//        guessResults.add(guess);
+//
+//        assertThat(game.checkCorrectGuessResult(),is("false"));
+//    }
+//    @Test
+//    public void should_have_game_when_call_game()throws Exception{
+//        setUp();
+//        Game game = new Game(answerGenerator);
+//        AnswerGenerator answerGenerator = mock(AnswerGenerator.class);
+//        when(answerGenerator.generate()).thenReturn(actualAnswer);
+//        Game game = new Game(answerGenerator);
+//    }
 
 }

@@ -2,6 +2,7 @@ package tw.core;
 
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 /**
  * Created by jxzhong on 2017/9/23.
@@ -13,5 +14,8 @@ public class AnswerTest {
     public void setUp() {
         actualAnswer = Answer.createAnswer("1 2 3 4");
     }
+
+//    @Test
+//    public
 
 }
