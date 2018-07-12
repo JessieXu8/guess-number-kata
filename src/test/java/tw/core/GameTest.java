@@ -7,6 +7,9 @@ import org.junit.jupiter.api.Test;
 import tw.core.generator.AnswerGenerator;
 import tw.core.model.GuessResult;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.mockito.Mockito.mock;
@@ -41,12 +44,22 @@ public class GameTest {
     public void should_get_the_failed_status_when_guess_input_is_incorrect() throws Exception {
 
         //given
-//        excuteSuccessGuess();
+//        excuteFailedGuess();
         GuessResult guess = game.guess(Answer.createAnswer("1 2 3 3"));
         //when
         //then
         assertThat(guess.getResult(), is("3A0B"));
 
+    }
+
+    @Test
+    public void should_get_the_success_guess_history_when_call_guessHistory() throws Exception{
+        //given
+        List<GuessResult> guessResults = new ArrayList<>();
+        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        //then
+        assertThat(game.guessHistory(),is(guessResults));
     }
 
 }
