@@ -62,6 +62,12 @@ public class AnswerTest {
         assertEquals("2A1B", result.getValue());
     }
 
+    @Test
+    public void should_getIndexOfNum_given_a_num(){
+        int returnValue = actualAnswer.getIndexOfNum("2");
+        assertThat(returnValue,is(1));
+    }
+
 
 
 }
