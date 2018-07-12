@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c2d48b-25cf-4b51-b1fe-405b0d04fe29" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tw/core/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tw/core/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -18,7 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/guess_number_kata$All_in_tdd_java_base_test__1_.ic" NAME="All in tdd-java-base_test (1) Coverage Results" MODIFIED="1531393542906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/guess_number_kata$All_in_tdd_java_base_test.ic" NAME="All in tdd-java-base_test Coverage Results" MODIFIED="1531397144508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/guess_number_kata$All_in_tdd_java_base_test.ic" NAME="All in tdd-java-base_test Coverage Results" MODIFIED="1531398642605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
     <option name="myAutoScrollToSource" value="true" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+            <state relative-caret-position="427">
+              <caret line="64" column="36" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
@@ -48,8 +46,8 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
@@ -494,6 +492,14 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="guess-number-kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-number-kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -539,7 +545,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_throw_the_exception_given_a_repeated_number_when_call_validate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -551,8 +557,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_throw_the_exception_given_a_repeated_number_when_call_validate" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -562,7 +568,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_throw_the_exception_given_a_uncorrect_formatted_answer__when_call_validate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_getIndexOfNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -574,7 +580,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_throw_the_exception_given_a_uncorrect_formatted_answer__when_call_validate" />
+      <option name="METHOD_NAME" value="should_getIndexOfNum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -585,7 +591,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="GameTest.should_get_information_when_call_guess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_get_true_when_call_answer_given_input_1234" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -596,8 +602,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
-      <option name="METHOD_NAME" value="should_get_information_when_call_guess" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_get_true_when_call_answer_given_input_1234" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -608,7 +614,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="GameTest.should_get_succedd_given_guessResults_is_equals_to_actualAnswer_when_call_checkStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_return_2A1B_when_call_check_given_input_1245" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -619,8 +625,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
-      <option name="METHOD_NAME" value="should_get_succedd_given_guessResults_is_equals_to_actualAnswer_when_call_checkStatus" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_return_2A1B_when_call_check_given_input_1245" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -671,18 +677,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in tdd-java-base_test" />
-      <item itemvalue="JUnit.GameTest.should_get_succedd_given_guessResults_is_equals_to_actualAnswer_when_call_checkStatus" />
-      <item itemvalue="JUnit.GameTest.should_get_information_when_call_guess" />
-      <item itemvalue="JUnit.AnswerTest.should_throw_the_exception_given_a_uncorrect_formatted_answer__when_call_validate" />
-      <item itemvalue="JUnit.AnswerTest.should_throw_the_exception_given_a_repeated_number_when_call_validate" />
+      <item itemvalue="JUnit.AnswerTest.should_get_true_when_call_answer_given_input_1234" />
+      <item itemvalue="JUnit.AnswerTest.should_getIndexOfNum" />
+      <item itemvalue="JUnit.AnswerTest" />
+      <item itemvalue="JUnit.AnswerTest.should_return_2A1B_when_call_check_given_input_1245" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in tdd-java-base_test" />
-        <item itemvalue="JUnit.AnswerTest.should_throw_the_exception_given_a_repeated_number_when_call_validate" />
-        <item itemvalue="JUnit.AnswerTest.should_throw_the_exception_given_a_uncorrect_formatted_answer__when_call_validate" />
-        <item itemvalue="JUnit.GameTest.should_get_information_when_call_guess" />
-        <item itemvalue="JUnit.GameTest.should_get_succedd_given_guessResults_is_equals_to_actualAnswer_when_call_checkStatus" />
+        <item itemvalue="JUnit.AnswerTest.should_return_2A1B_when_call_check_given_input_1245" />
+        <item itemvalue="JUnit.AnswerTest" />
+        <item itemvalue="JUnit.AnswerTest.should_getIndexOfNum" />
+        <item itemvalue="JUnit.AnswerTest.should_get_true_when_call_answer_given_input_1234" />
       </list>
     </recent_temporary>
   </component>
@@ -696,44 +702,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531385751952</updated>
-      <workItem from="1531385754874" duration="8743000" />
+      <workItem from="1531385754874" duration="10109000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 19h 09m 52s.xml">
+    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 20h 08m 58s.xml">
       <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 19h 13m 37s.xml">
+    <history-entry file="AnswerTest_should_return_2A1B_when_call_check_given_input_1245 - 2018.07.12 at 20h 12m 59s.xml">
+      <configuration name="AnswerTest.should_return_2A1B_when_call_check_given_input_1245" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 20h 13m 08s.xml">
       <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_should_have_game_when_call_game - 2018.07.12 at 19h 19m 26s.xml">
-      <configuration name="GameTest.should_have_game_when_call_game" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_get_string_when_call_toString - 2018.07.12 at 20h 14m 57s.xml">
+      <configuration name="AnswerTest.should_get_string_when_call_toString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 19h 19m 44s.xml">
+    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 20h 15m 04s.xml">
       <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 19h 19m 57s.xml">
+    <history-entry file="AnswerTest_should_get_true_when_call_answer_given_input_1234 - 2018.07.12 at 20h 15m 26s.xml">
+      <configuration name="AnswerTest.should_get_true_when_call_answer_given_input_1234" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 20h 15m 32s.xml">
       <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_should_have_game_when_call_game - 2018.07.12 at 19h 25m 34s.xml">
-      <configuration name="GameTest.should_have_game_when_call_game" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_getIndexOfNum - 2018.07.12 at 20h 23m 16s.xml">
+      <configuration name="AnswerTest.should_getIndexOfNum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 19h 25m 42s.xml">
+    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 20h 23m 25s.xml">
       <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_should_get_information_when_call_guess - 2018.07.12 at 19h 40m 16s.xml">
-      <configuration name="GameTest.should_get_information_when_call_guess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_should_get_information_when_call_guess - 2018.07.12 at 19h 40m 41s.xml">
-      <configuration name="GameTest.should_get_information_when_call_guess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 19h 40m 51s.xml">
-      <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
+    <history-entry file="AnswerTest - 2018.07.12 at 20h 25m 26s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8743000" />
+    <option name="totallyTimeSpent" value="10109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -750,7 +756,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26187962" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -759,7 +765,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.19852164" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3296875" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.26293558" />
+      <window_info anchor="bottom" id="Terminal" weight="0.26293558" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23802084" />
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
@@ -780,7 +786,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -819,16 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -850,10 +854,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5127">
+          <caret line="341" column="99" selection-start-line="341" selection-start-column="99" selection-end-line="341" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />
@@ -870,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        <state relative-caret-position="427">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
