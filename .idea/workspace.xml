@@ -32,8 +32,8 @@
       <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="64" column="36" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="36" />
+            <state relative-caret-position="494">
+              <caret line="77" selection-start-line="77" selection-start-column="2" selection-end-line="82" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
@@ -46,18 +46,32 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="43" column="23" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="23" />
+            <state relative-caret-position="104">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
                 <element signature="e#1567#1568#0" expanded="true" />
                 <element signature="e#1615#1616#0" expanded="true" />
                 <element signature="e#1661#1662#0" expanded="true" />
                 <element signature="e#1709#1710#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Record.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -702,14 +716,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531385751952</updated>
-      <workItem from="1531385754874" duration="10109000" />
+      <workItem from="1531385754874" duration="10499000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 20h 08m 58s.xml">
-      <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnswerTest_should_return_2A1B_when_call_check_given_input_1245 - 2018.07.12 at 20h 12m 59s.xml">
       <configuration name="AnswerTest.should_return_2A1B_when_call_check_given_input_1245" configurationId="JUnit" />
     </history-entry>
@@ -737,13 +748,15 @@
     <history-entry file="AnswerTest - 2018.07.12 at 20h 25m 26s.xml">
       <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 20h 30m 45s.xml">
+      <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10109000" />
+    <option name="totallyTimeSpent" value="10499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -756,7 +769,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26187962" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26187962" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -765,8 +778,8 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.19852164" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3296875" />
-      <window_info anchor="bottom" id="Terminal" weight="0.26293558" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23802084" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.26293558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23802084" />
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
@@ -786,14 +799,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
   </component>
@@ -864,23 +869,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5127">
-          <caret line="341" column="99" selection-start-line="341" selection-start-column="99" selection-end-line="341" selection-end-column="99" />
+        <state relative-caret-position="207">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="23" />
+        <state relative-caret-position="104">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
             <element signature="e#1567#1568#0" expanded="true" />
             <element signature="e#1615#1616#0" expanded="true" />
             <element signature="e#1661#1662#0" expanded="true" />
@@ -891,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="36" />
+        <state relative-caret-position="494">
+          <caret line="77" selection-start-line="77" selection-start-column="2" selection-end-line="82" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />

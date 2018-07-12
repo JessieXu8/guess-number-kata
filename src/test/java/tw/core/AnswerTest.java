@@ -68,6 +68,12 @@ public class AnswerTest {
         assertThat(returnValue,is(1));
     }
 
+    @Test
+    public void should_get_string_when_call_toString(){
+        String str = actualAnswer.toString();
+
+        assertEquals("1 2 3 4", str);
+    }
 
 
 }
