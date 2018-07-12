@@ -62,4 +62,70 @@ public class GameTest {
         assertThat(game.guessHistory(),is(guessResults));
     }
 
+    @Test
+    public void should_get_true_given_guessResults_size_is_smaller_than_6_when_call_checkContinue () throws Exception{
+        //given
+        List<GuessResult> guessResults = new ArrayList<>();
+        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+
+        assertThat(game.checkCoutinue(),is(true));
+    }
+
+    @Test
+    public void should_get_false_given_guessResults_size_is_bigger_than_6_when_call_checkContinue () throws Exception{
+        //given
+        List<GuessResult> guessResults = new ArrayList<>();
+        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+
+        assertThat(game.checkCoutinue(),is(false));
+    }
+
+    @Test
+    public void should_get_FAIL_given_guessResults_size_is_equals_to_6_when_call_checkStatus()throws Exception{
+        List<GuessResult> guessResults = new ArrayList<>();
+        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+        guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        guessResults.add(guess);
+
+        assertThat(game.checkStatus(),is("fail"));
+    }
+
+    @Test
+    public void should_get_succedd_given_guessResults_is_equals_to_actualAnswer_when_call_checkStatus()throws Exception{
+        List<GuessResult> guessResults = new ArrayList<>();
+        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 4"));
+        guessResults.add(guess);
+
+        assertThat(game.checkStatus(),is("success"));
+    }
+    @Test
+    public void should_get_continue_given_guessResults_isnot_equals_to_actualAnswer_and_guessResults_size_is_smaller_than_6_when_call_checkStatus()throws Exception{
+        List<GuessResult> guessResults = new ArrayList<>();
+        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 2"));
+        guessResults.add(guess);
+
+        assertThat(game.checkStatus(),is("continue"));
+    }
+
 }
