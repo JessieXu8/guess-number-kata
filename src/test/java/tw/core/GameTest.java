@@ -37,5 +37,16 @@ public class GameTest {
 
     }
 
+    @Test
+    public void should_get_the_failed_status_when_guess_input_is_incorrect() throws Exception {
+
+        //given
+//        excuteSuccessGuess();
+        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 3"));
+        //when
+        //then
+        assertThat(guess.getResult(), is("3A0B"));
+
+    }
 
 }
